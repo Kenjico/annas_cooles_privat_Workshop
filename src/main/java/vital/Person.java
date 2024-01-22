@@ -1,10 +1,15 @@
 package vital;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Person {
 
     private List<Vitalwert> werte;
+
+    public Person() {
+        this.werte = new ArrayList<>();
+    }
 
     public List<Vitalwert> getWerte(){
         return this.werte;
@@ -15,7 +20,7 @@ public class Person {
     }
 
     public String letzterVitalwert(){
-        //TODO
+        //TODOdasdasdasd
         return null;
     }
 }
